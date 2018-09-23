@@ -1,4 +1,37 @@
+#nameP{
+    
+        font-size: 25px;
+        height: 70px;
+        width: 200px;
+        padding-top: 50px;
+        background-color: red;
+        color: antiquewhite;
+        float: left;
+        text-align: center;
+    
+}
 
+#name1 {
+    font-size: 25px;
+    height: 70px;
+    width: 200px;
+    padding-top: 50px;
+    background-color: red;
+    color: antiquewhite;
+    float: left;
+    text-align: center;
+}
+
+#name2 {
+    font-size: 25px;
+    height: 70px;
+    width: 200px;
+    padding-top: 50px;
+    background-color: red;
+    color: antiquewhite;
+    float: left;
+    text-align: center;
+}
 
 body{
     background-image: url(Pictures/gravel.png);
