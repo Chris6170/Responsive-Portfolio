@@ -131,6 +131,9 @@ input[type=submit]:hover {
 /* Media Q */
 
 @media only screen and (max-width: 980px) {
+
+ 
+
 #wrapper{
     width: 843px;
     margin: 40px auto;
@@ -195,6 +198,22 @@ footer{
 }
 
 @media only screen and (max-width: 768px) {
+
+    .acancel {
+        background-color: black;
+        font-size: 22px;
+        margin-top: 10px;
+    }
+
+    img{
+        height: 250px;
+    width: 250px;
+    }
+
+    #formC{
+        margin-right: 286px;
+    }
+
     #wrapper{
         width: 768px;
     margin: 40px auto;
@@ -210,15 +229,16 @@ footer{
     
            
         }
-        #name{
-            margin: 48px;
-            margin-left: 0px;
-            padding: 0px;
-            font-size: 25px;
-            height: 70px;
-            width: 200px;
-            color: antiquewhite;
-            float: left;
+        #namep{
+            margin: 2px;
+    margin-left: 64px;
+    padding: 22px;
+    font-size: 29px;
+    height: 70px;
+    width: 200px;
+    color: antiquewhite;
+    float: left;
+    background-color: red
         }
     
         .header{
@@ -251,11 +271,21 @@ footer{
     }
 
     @media only screen and (max-width: 640px) {
+     
+
         #wrapper{
             width: 640px;
         margin: 40px auto;
         margin-left: 61px;
         }
+
+        
+
+        #formC{
+            width: 400px;
+            margin-left: 0;
+
+          }  
         
             
         
@@ -293,21 +323,26 @@ footer{
             
         a{
             position: relative;
-    font-size: 13px;
-    float: right;
-    margin-right: 3px;
-    padding-right: 14px;
-    margin-top: -15px;
-    text-align: center;
+            font-size: 22px;
+            float: right;
+            margin-right: 3px;
+            padding-right: 14px;
+            margin-top: 43px;
+            text-align: center;
         
         
         }
-        
+
         nav{
             float: none;
             margin-right: 72px;
             padding: 45px;
         }
+#navP{
+        margin-right: -130px;
+    padding: 45px;
+    margin-top: 0px;
+}
 
         #indexPic{
             margin-top: 0px;
