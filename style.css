@@ -132,6 +132,16 @@ input[type=submit]:hover {
 
 @media only screen and (max-width: 980px) {
 
+    #foot{
+        width: 79%;
+    }
+
+    #picP{
+        margin-left: 84px;
+    }
+
+    
+
  
 
 #wrapper{
@@ -168,8 +178,28 @@ input[type=submit]:hover {
     margin-left: 57px;
     }
 
+    #name2{
+        margin: 0px;
+    padding: 25px;
+    font-size: 31px;
+    height: 70px;
+    width: 200px;
+    color: antiquewhite;
+    float: left;
+    box-align: left;
+    margin-left: 57px;
+    background-color: red;
+    }
+
     .header{
         width: 1024px;
+    }
+
+    #header2{
+        width: 100%;
+    padding-right: 139px;
+    margin-bottom: 39px;
+    
     }
 a{
     font-size: 25px;
@@ -182,7 +212,7 @@ a{
 
 }
 
-nav{
+#nav2{
     float: none;
     margin-right: 72px;
     padding: 45px;
@@ -198,6 +228,31 @@ footer{
 }
 
 @media only screen and (max-width: 768px) {
+
+    #pp{
+        margin-left: 43px;
+    }
+
+   #aP{
+       font-size:18px;
+   }
+
+        #nav2p{
+            float: none;
+            margin-right: 0px;
+            padding: 45px;
+        }
+            
+    
+
+    #picP{
+        margin-left: 43px;
+    }
+
+    .container{
+        width: 96%;
+        margin-left: 173px;
+         }
 
     .acancel {
         background-color: black;
@@ -248,29 +303,77 @@ footer{
         header{
             width: 100%;
             padding-right: 139px;
+            margin-bottom: 10px;
         }
-    a{
+    .a1{
         font-size: 25px;
-        float: right;
-        margin-right: 25px;
-        padding-right: 14px;
-        margin-top: 44px;
-    
-    
-    
-    }
-    
-    nav{
-        float: none;
-        margin-right: 72px;
-        padding: 45px;
-    }
+    float: right;
+    margin-right: 0px;
+    padding-right: 14px;
+    margin-top: 52px;
+    margin: 9px;
     
     
     
     }
 
+    .a2{
+        font-size: 20px;
+        float: right;
+        margin-right: 3px;
+        padding-right: 14px;
+        margin-top: 45px;
+
+    }
+    
+    #nav1{
+        margin: -19px;
+        float: none;
+        margin-right: -178px;
+        padding: 45px;
+    }
+#nav2{
+    float: none;
+    margin-right: -50px;
+    padding: 45px;
+}
+    
+    
+    }
+
     @media only screen and (max-width: 640px) {
+
+        .a2 {
+            font-size: 20px;
+            float: right;
+            margin-right: 3px;
+            padding-right: 14px;
+            margin-top: 45px;
+        }
+
+        #nav2p {
+            float: none;
+            margin-right: 121px;
+            padding: 45px;
+        }
+
+        #pp{
+            margin-left: 91px;
+        }
+
+        #indexPicp{
+            margin-top: 10px;
+            margin-left: 11%;
+            margin-bottom: 10px;
+            height: 350px;
+            width: 350px;
+        }
+
+        .container {
+            width: 96%;
+            margin-left: 173px;
+            margin-top: 93px;
+        }
      
 
         #wrapper{
@@ -291,22 +394,40 @@ footer{
         
             p{
                 line-height: 1.5;
-                width: 50%;
-                text-align: left;
-                font-size: 13px;
+    width: 100%;
+    text-align: left;
+    font-size: 13px;
         
                
             }
-            #name{
-                padding-top: 0px;
-                margin: 48px;
-                margin-left: 0px;
-                padding: 0px;
-                font-size: 39px;
-                height: 70px;
-                width: 41%;
-                color: antiquewhite;
-                float: left;
+            #name1{
+                background-color: red;
+    padding-top: 0px;
+    margin: 0px;
+    margin-left: 0px;
+    padding: 27px;
+    font-size: 39px;
+    height: 70px;
+    width: 71%;
+    color: antiquewhite;
+    float: left;
+    float: left;
+    text-align: center;
+            }
+
+            #name2{
+                margin: 0px;
+    padding: 25px;
+    font-size: 41px;
+    height: 70px;
+    width: 100%;
+    color: antiquewhite;
+    float: left;
+    box-align: left;
+    margin-left: 57px;
+    background-color: red;
+    padding-left: 88px;
+            }
                 
                
             }
@@ -321,7 +442,7 @@ footer{
             }
 
             
-        a{
+        .a1{
             position: relative;
             font-size: 22px;
             float: right;
@@ -333,10 +454,17 @@ footer{
         
         }
 
-        nav{
+        #nav1{
+            margin: -18px;
             float: none;
-            margin-right: 72px;
+            margin-right: 51px;
             padding: 45px;
+        }
+
+        #nav2{
+            float: none; 
+    margin-right: 117px;
+    padding: 45px;
         }
 #navP{
         margin-right: -130px;
@@ -354,16 +482,25 @@ footer{
     width: 300px;
         }
 
+        #indexPic1{
+            margin-top: 0px;
+    margin-right: 0px;
+    margin-left: 25%;
+    margin-bottom: 10px;
+    height: 300px;
+    width: 300px;
+        }
+
         h2{
             color: red;
     border-bottom: 3px solid black;
-    width: 46%;
+    width: 100%;
     margin-left: 0px;
         }
         
         
         
-        }
+        
    
 
 
